@@ -8,11 +8,9 @@
  * Return: Always 0 (Success)
  */
 
-int main(void)
-	
+int main(void)	
 {
 	int n;
-	
 	
 	srand(time(0));	
 	n = rand() - RAND_MAX / 2;	
@@ -22,6 +20,5 @@ int main(void)
 		printf("%d is zero\n", n);	
 	else if (n < 0)		
 		printf("%d is negative\n", n);	
-	return (0);
-	
+	return (0);	
 }
